@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="rpi"  fetch="." review="https://github.com/HIKHHBro" />
-
-  <default revision="master" remote="rpi" />
+  <remote fetch="https://github.com/HIKHHBro" name="github"/>
+  <default revision="master" remote="github" sync-c="true" sync-j="8"/>
 
   <project path="meta-raspberrypi" name="meta-raspberrypi" />
 </manifest>
